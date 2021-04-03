@@ -213,7 +213,7 @@ section .mbr-background-video-preview {
   width: 100%;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1301px) {
   .media-container-row {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -272,7 +272,7 @@ iframe {
   width: 100%;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1300px) {
   .media-size-item {
     width: auto !important;
   }
@@ -603,14 +603,14 @@ nav .mbr-section-btn {
   width: auto;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1300px) {
   .menu .navbar-toggleable-sm .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1300px) {
   .menu .navbar-collapse {
     max-height: 93.5vh;
   }
@@ -619,7 +619,7 @@ nav .mbr-section-btn {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1301px) {
   .menu .navbar-nav.nav-dropdown {
     display: -webkit-flex;
   }
@@ -972,7 +972,7 @@ blockquote {
   margin-bottom: 2rem !important;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1301px) {
   .container {
     padding-left: 16px;
     padding-right: 16px;
@@ -994,7 +994,7 @@ blockquote {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1300px) {
   .mbr-container {
     padding-left: 32px;
     padding-right: 32px;
