@@ -83,6 +83,11 @@ router.get('/withdrawal', ensureAuthenticated, (req, res) =>
     user: req.user
   })
 );
+router.get('/withdrawal-success', ensureAuthenticated, (req, res) =>
+  res.render('success', {
+    user: req.user
+  })
+);
 router.get('/history', ensureAuthenticated, (req, res) =>
   res.render('history', {
     user: req.user
